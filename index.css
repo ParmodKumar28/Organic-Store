@@ -16,6 +16,7 @@ body {
 
 
 /* Navbar Section */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -459,7 +460,7 @@ i {
 /* Mobile Styles */
 @media screen and (max-width: 780px){
     .Best-Selling-Products {
-        padding: 0;
+        padding: 20px;
         padding-top: 4.3rem;
     }
     
@@ -1324,10 +1325,11 @@ a {
     
     .Stores{
         margin-top: 1rem;
+        display: flex;
     }
     .Stores>img{
         height: 50px;
-        margin-right: 20px;
+        margin: 10px;
     }
     /*  */
     
